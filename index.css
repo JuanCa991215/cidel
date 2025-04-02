@@ -33,12 +33,12 @@ body {
 }
 
 .container__img {
-    width: 200px;
+    width: 180px;
     height: auto;
 }
 
 .container__img1 {
-    width: 140px;
+    width: 120px;
     height: auto;
 }
 
@@ -57,4 +57,15 @@ body {
     border-radius: 1.5rem;
     max-width: max-content;
     margin: 0 auto;
+}
+
+.video {
+    width: min(600px, 100%);
+    aspect-ratio: 16/9;
+}
+
+@media (width < 500px) {
+    .container__buttons {
+        display: grid;
+    }
 }
